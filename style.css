@@ -1,0 +1,292 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f1f1f1;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 649px;
+    margin: auto;
+    padding: 12px;
+    border: 1px solid #999;
+    background: #fff;
+}
+
+.header {
+    background-color: #cec6c6;;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #888;
+    padding: 11px;
+    margin-bottom: 11px;
+    gap: 10px;
+}
+
+.logo {
+    border: 1px solid #777;
+    background: #c79595;
+    padding: 8px 15px; 
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.menu {
+    display: flex;
+    gap: 5px;
+}
+.menu a { 
+    text-decoration: none;
+    color:#4b5fce;
+    background: #c7c5c1;
+    border: 1px solid #999;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.btn {
+    background: #b9a4a4;
+    border: 1px solid #684a4a;
+    padding: 8px 16px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.banner {
+display: flex; 
+gap: 5px;
+
+    padding: 10px;
+    border: 1px solid #888;
+}
+
+.banner-text {
+    background: #eee;
+    border: 1px dashed #ccc;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.banner-text h1 {
+    font-size: 25px;
+    background: #b1aeae;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #aca7a7;
+}
+.banner-text p {
+    font-size: 10px;
+    background: #ddd;
+    padding: 5px;
+    width: 108%;
+border: 1px solid #aca7a7;
+}
+
+.banner-text .linha2 {
+    width: 65%;
+    border: 1px solid #aca7a7;
+}
+
+.banner-text .btn {
+    align-self: flex-start;
+    margin-top: 5px;
+ border: 1px solid #aca7a7;
+    
+}
+
+.banner-imagem {
+    background: #968f8f;
+    border: 3px dashed #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 30px;
+    ;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+    border: 1px solid #888;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cards-section {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.cards-section h2,
+.sidebar h2 {
+    font-size: 10px;
+    background: #ccc;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #aca7a7;
+}
+
+.cards {
+   display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.card {
+    background-color: #cec6c6;
+     flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.card-image {
+    background-color: #8b97b7;
+    padding: 20px;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.card button {
+    margin-top: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+.card h3 {
+    background: #ccc;
+    padding: 5px;
+    font-size: 10px;
+    border: 1px solid #aca7a7;
+    margin-top: 10px;
+}
+
+.card p {
+    background: #e5e5e5;
+    padding: 5px;
+    font-size: 9px;
+    border: 1px solid #aca7a7;
+}
+
+.card .btn {
+    margin-top: auto;
+}
+
+.sidebar {
+    border: 1px solid #aca7a7;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sidebar h2 {
+    margin-bottom: 0;
+}
+
+.widget {
+    background: #e5e5e5;
+    border: 1px solid #ccc;
+    padding: 7px;
+    font-size: 9px;
+}
+.widget-destaque {
+    flex: 1;
+}
+
+.central-section {
+    border: 1px solid #888;
+    background: #eaeaea;
+    min-height: 118px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.central-section h2 {
+    font-size: 10px;
+    background: #ccc;
+    padding: 7px 15px;
+    border: 1px solid #aca7a7
+}
+
+.central-section p {
+    background: #ddd;
+    border: 1px solid #aca7a7;
+    padding: 5px 10px;
+    font-size: 9px;
+}
+
+.central-buttons {
+    display: flex;
+    gap: 14px;
+    margin-top: 5px;
+}
+
+.footer {
+    display: flex;
+    gap: 8px;
+    border: 1px solid #888;
+    padding: 10px;
+}
+
+.footer-about {
+    flex: 2;
+}
+
+.footer-about,
+.footer-links,
+.footer-social {
+    border: 1px dashed #ccc;
+    padding: 7px;
+}
+
+.footer h3 {
+    background: #ccc;
+    padding: 12px;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.footer p {
+    background: #e5e5e5;
+    padding: 5px;
+    font-size: 9px;
+}
+
+.social-button{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
